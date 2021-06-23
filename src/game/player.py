@@ -12,6 +12,11 @@ class Player:
         self.nombre = nombre
         self.id = id
     
+    def input(self):
+        """
+        Es el input del player en mi Juego
+        """
+        pass
 
     def __str__(self) -> str:
         """
